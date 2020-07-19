@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" cntent="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Document</title>
 </head>
 
 <body>
-    <h1>Mudar Background color</h1>
+    <div class="container">
+        <h1>Mudar Background color</h1>
 
-    <h2>Selecione a cor<span id="colorOutput"></span></h2>
+        <h2>Selecione a cor<span id="colorOutput"></span></h2>
+        <br>
+        <div class="ranges">
+            <label>Red:
+                <input type="range" id="rangeRed" value="34" min="0" max="255">
+            </label>
+            
+            <label>Green:
+                <input type="range" id="rangeGreen" value="230" min="0" max="255">
+            </label>
+            
+            <label>Blue:
+                <input type="range" id="rangeBlue" value="214" min="0" max="255">
+            </label>
+        </div>
 
-    <div><label>Red:</label>
-        <input type="range" id="rangeRed" value="4" min="0" max="255">
-
-        <label>Green:</label>
-        <input type="range" id="rangeGreen" value="139" min="0" max="255">
-
-        <label>Blue:</label>
-        <input type="range" id="rangeBlue" value="168" min="0" max="255">
     </div>
-
     <script src="app.js"></script>
 </body>
 

@@ -1,15 +1,39 @@
+html, body, h2{  
+    margin: 0;  
+    padding: 0; 
+}
+
 body{
+    max-width: 900px;
     background-color: rgb(34, 230, 214);
+}
+
+.container{
+    max-width: 900px;
 }
 
 h1, h2{
     color: white;
     text-shadow: rgb(36, 35, 35) 0.1em 0.1em 0.1em;
     font-family: Helvetica;
-    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: #000;
 }
-div{
-    display: flex;
-    flex-wrap: wrap;
+label{
+    padding: 10px;
+    color: white;
+    font-family: Helvetica;
+    text-shadow: rgb(36, 35, 35) 0.1em 0.1em 0.1em;
+    font-size: x-large;
 }
+
+.ranges{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+input{
+    width: 200px;
+}
+
